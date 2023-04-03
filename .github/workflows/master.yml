@@ -17,4 +17,4 @@ jobs:
           server: ns1.bluehost.com
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          server-dir: /home2/ernests0/public_html
+          server-dir: /home2/ernests0/public_html/
