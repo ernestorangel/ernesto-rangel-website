@@ -14,7 +14,7 @@ body {
 main {
   /* min-height: 100vh; */
   background-color: white;
-  /* border-top: 5px solid #34495e; */
+  border-top: 5px solid #34495e;
 }
 
 .main-menu {
