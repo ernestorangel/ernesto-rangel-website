@@ -11,19 +11,6 @@ body {
   background-color: #34495e;
 }
 
-#warning {
-  position: absolute;
-
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-
-  background-color: red;
-
-  color: white;
-  font-size: 80px;
-}
-
 main {
   /* min-height: 100vh; */
   background-color: white;
