@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px solid red;
+    box-sizing: border-box;
+    font-family: 'Fira Code', monospace;
+}
+
+#home-content {
+    min-width: 600px;
+}
+
+#home-main-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+}
+
+.content-title {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#home-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.home-card {
+    height: 100%;
+    width: 30%;
+
+    border: 5px solid black;
+}
+
+#home-extra {
+    min-height: 600px;
+}
