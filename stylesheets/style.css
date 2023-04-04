@@ -241,4 +241,7 @@ a {
 
   padding: 20px 60px;
   background-color: #f7df1e;
+
+  flex-wrap: nowrap;
+  white-space: nowrap;
 }
