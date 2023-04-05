@@ -12,6 +12,19 @@
         <link rel='stylesheet' href='./stylesheets/cvStyle.css'>
     </head>
     <body id="page">
+        <div id="page-config-menu">
+            <form>
+                <select name="lang-selector" id="lang-selector">
+                    <label for="lang-selector"></label>
+                    <option value="pt-BR">Português (BR)</option>
+                    <option value="pt-PT">Português (PT)</option>
+                    <option value="en-US">English (US)</option>
+                </select>
+            </form>
+            <button id="color-scheme-toggle">
+                <img src="./img/icons/brilho.png" width="80%">
+            </button>
+        </div>
         <header class="main-menu">
             <h1 id="logo"><a href="/">Ernesto Rangel</a></h1>
             <div id="main-menu-list-container">
@@ -54,8 +67,9 @@
         </main>
         <footer class="main-footer">
             <h7>Ernesto Rangel &#8482 2023.</h7>
-            <h6>Desenvolvido em HTML5, CSS3 & JavaScript Vanilla.</h6>
+            <h6>Desenvolvido em HTML, CSS & JavaScript.</h6>
         </footer>
         <script src="/javascript/router.js"></script>
+        <script src="/javascript/script.js"></script>
     </body>
 </html>
